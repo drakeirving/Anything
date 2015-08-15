@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting pref="extensions.anything@drakeirv.ing.searchList" type="string" title="Search List" desc="List of URLs in name|url format, one per line." onclick="var textbox=document.getAnonymousElementByAttribute(this,'anonid','input'); var val=textbox.value; textbox.style.height='200px'; textbox.setAttribute('multiline',true); textbox.setAttribute('value',val);" value="https://www.youtube.com/results?search_query="/>
+	<!-- inline workaround necessary for multiline due to about:addons js disabling -->
+	<setting pref="extensions.anything@drakeirv.ing.searchList" type="string" title="Search List" desc="List of URLs in name|url format, one per line." onclick="var textbox=document.getAnonymousElementByAttribute(this,'anonid','input'); var val=textbox.value; textbox.style.height='200px'; textbox.setAttribute('multiline',true); textbox.setAttribute('value',val);" value="https://www.youtube.com/results?search_query="/>
 </vbox>
