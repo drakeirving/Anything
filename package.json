@@ -1,0 +1,14 @@
+{
+  "title": "Anything",
+  "name": "anything",
+  "id": "anything@drakeirv.ing",
+  "version": "0.0.1",
+  "description": "Search selected text with any user-defined query URL.",
+  "main": "index.js",
+  "author": "drakeirving",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}
